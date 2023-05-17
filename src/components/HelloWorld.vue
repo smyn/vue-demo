@@ -1,7 +1,5 @@
 <template>
   <div id="app">
-    <h1>🎙️ Vue.js Dictaphone</h1>
-
     <template v-if="showError">
       Your browser doesn’t support audio recording or you’ve blocked microphone access.
     </template>
