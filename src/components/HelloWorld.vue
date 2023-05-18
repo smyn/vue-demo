@@ -16,6 +16,12 @@
       <template v-if="audioSource">
         <audio :src="audioSource" controls></audio>
       </template>
+
+      
+    </template>
+
+    <template>
+       <tone-test/>
     </template>
   </div>
 </template>
@@ -24,6 +30,7 @@
 
 import Dictaphone from '@/components/Dictaphone';
 import SpectrumAnalyser from '@/components/SpectrumAnalyser';
+import ToneTest from '@/components/ToneTest';
 
 export default {
   name: 'app',
@@ -45,6 +52,7 @@ export default {
   components: {
     Dictaphone,
     SpectrumAnalyser,
+    ToneTest,
   },
 };
 </script>
