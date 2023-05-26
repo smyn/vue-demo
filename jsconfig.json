@@ -5,6 +5,9 @@
     "baseUrl": "./",
     "moduleResolution": "node",
     "paths": {
+      "@tonejs/ui": [
+        "node_modules/@tonejs/ui"
+      ],
       "@/*": [
         "src/*"
       ]

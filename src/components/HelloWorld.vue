@@ -21,7 +21,7 @@
     </template>
 
     <template>
-       <tone-test/>
+       <tone-test-analysys/>
     </template>
   </div>
 </template>
@@ -30,7 +30,8 @@
 
 import Dictaphone from '@/components/Dictaphone';
 import SpectrumAnalyser from '@/components/SpectrumAnalyser';
-import ToneTest from '@/components/ToneTest';
+// import ToneTest from '@/components/ToneTest';
+import ToneTestAnalysys from '@/components/ToneTestAnalysys';
 
 export default {
   name: 'app',
@@ -52,7 +53,8 @@ export default {
   components: {
     Dictaphone,
     SpectrumAnalyser,
-    ToneTest,
+    // ToneTest,
+    ToneTestAnalysys
   },
 };
 </script>
